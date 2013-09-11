@@ -24,7 +24,7 @@ public class Main {
 		
 		// Creates and starts ten Thread objects
 		System.out.printf("Starting the Threads\n");
-		for (int i=0; i<10; i++){
+		for (int i=0; i<90000; i++){
 			thread=factory.newThread(task);
 			thread.start();
 		}
